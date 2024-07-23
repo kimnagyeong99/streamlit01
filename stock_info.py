@@ -35,7 +35,7 @@ with st.sidebar:
     today = datetime.datetime.now()
     last_year = today.year - 50
     jan_1 = datetime.date(last_year, 1, 1)
-    dec_31 = datetime.date(today, 12, 31)
+    dec_31 = datetime.date(today)
 
     date_range = st.date_input(
         "시작일-종료일",
