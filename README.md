@@ -7,6 +7,7 @@
 # 내 깃허브 사용자 정보를 현재 컴퓨터에 로그인
 # git config --global user.email "knk990928@gmail.com"
 # git config --global user.name "kimnagyeong99"
+
 # $ git config --global user.email "???@gmail.com"
 # $ git config --global user.name "???"
 
@@ -16,7 +17,7 @@
 # git remote add origin <원격 레포지토리 주소>
 # git branch - M main - 기본 브랜치 설정
 
-# 특정 파일ㅇ르 git이 감시하도록
+# 특정 파일을 git이 감시하도록
 # git add 파일명(.을 입력하면 현재 디렉토리 내의 모든것을 관찰)
 # git commit -m "메세지와 함께 확정"
 # git push origin main
