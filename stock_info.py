@@ -35,11 +35,11 @@ with st.sidebar:
     today = datetime.datetime.now()
     last_year = today.year - 50
     jan_1 = datetime.date(last_year, 1, 1)
-    dec_31 = datetime.date(today)
+    dec_31 = datetime.date(last_year, 12, 31)
 
     date_range = st.date_input(
         "시작일-종료일",
-        (jan_1, datetime.date(last_year, 1, 7)),
+        (jan_1, today),
         max_value= today,
         format="MM.DD.YYYY")
     # 이거 날짜 달력 공부 다시 하기(gpt도움...)
